@@ -330,7 +330,7 @@ function Index() {
         <div className="site-container">
           <Head n="06" title="Founder & Leadership" />
           <div className="mt-16 grid items-end gap-10 md:grid-cols-12 md:gap-8 lg:gap-12">
-            <div className="reveal founder-portrait-wrap md:col-span-5 md:row-span-2 lg:col-span-4 lg:row-span-1">
+            <div className="reveal founder-portrait-wrap md:col-span-5 md:row-span-2 md:self-start lg:col-span-4 lg:row-span-1 lg:self-end">
               <div className="founder-portrait">
                 <img src={bossPortrait.url} alt="Natthakorn “Boss” Mueangsangsri, Founder & CEO of GodHeimer Technologies" loading="lazy" className="founder-portrait-img" />
               </div>
