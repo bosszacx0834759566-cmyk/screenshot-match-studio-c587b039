@@ -295,7 +295,7 @@ function Index() {
           <Head n="05" title="The Name / Origin" dark />
           <div className="mt-16 grid gap-12 lg:grid-cols-12">
             <h2 className="display-xl lg:col-span-8"><Lines lines={["Two scientists.", <span className="hero-sub">One name.</span>]} /></h2>
-            <p className="body-copy reveal self-end text-paper/60 lg:col-span-4">GodHeimer carries the names of two physicists — one who reached for space, one who shaped modern defense. Both sides define what we build.</p>
+            <p className="body-lg reveal self-end text-paper/60 lg:col-span-4">GodHeimer carries the names of two physicists — one who reached for space, one who shaped modern defense. Both sides define what we build.</p>
           </div>
           <div className="mt-24 grid gap-10 md:grid-cols-2">
             <figure className="founder-card reveal" style={{ transitionDelay: "0ms" }}>
