@@ -313,8 +313,9 @@ html::-webkit-scrollbar, body::-webkit-scrollbar { display: none; width: 0; heig
 @media (prefers-reduced-motion: reduce) { .origin-aperture, .origin-img { clip-path: none; transform: none; } }
 
 /* ===== Founder portrait (The Name / leadership section) ===== */
-.founder-portrait { position: relative; aspect-ratio: 4 / 5; overflow: hidden; }
-.founder-portrait-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: center bottom;
-  filter: contrast(1.08) saturate(1.08); transition: transform .8s var(--ease-out); }
+.founder-portrait { position: relative; width: 100%; max-width: 260px; margin-inline: auto; }
+.founder-portrait-img { display: block; width: 100%; height: auto;
+  filter: contrast(1.06) saturate(1.06); transition: transform .8s var(--ease-out); }
 .founder-portrait-wrap:hover .founder-portrait-img { transform: scale(1.02); }
-@media (min-width: 1024px) { .founder-portrait { aspect-ratio: auto; height: 100%; min-height: 460px; } }
+@media (min-width: 640px) { .founder-portrait { max-width: 320px; } }
+@media (min-width: 768px) { .founder-portrait { max-width: none; margin-inline: 0; } }

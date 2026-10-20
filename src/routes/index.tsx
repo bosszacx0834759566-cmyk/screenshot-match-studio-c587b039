@@ -7,7 +7,7 @@ import { OriginPanel } from "@/components/OriginPanel";
 import issVideo from "@/assets/iss-video.mp4.asset.json";
 import goddardImg from "@/assets/goddard.jpg.asset.json";
 import oppenheimerImg from "@/assets/oppenheimer.jpg.asset.json";
-import bossPortrait from "@/assets/boss-portrait.png.asset.json";
+import bossPortrait from "@/assets/boss-portrait-v2.png.asset.json";
 import { FOUNDER_BIRTH_ISO, FOUNDER_BIRTH_EN, founderAge } from "@/founder";
 
 const seoTitle = "GodHeimer Technologies | Space & Defense Technology from Thailand";
@@ -329,13 +329,13 @@ function Index() {
       <section id="leadership" className="section-space border-t border-line-light bg-paper text-ink">
         <div className="site-container">
           <Head n="06" title="Founder & Leadership" />
-          <div className="mt-16 grid items-end gap-10 lg:grid-cols-12 lg:gap-12">
-            <div className="reveal founder-portrait-wrap lg:col-span-4 lg:self-stretch">
+          <div className="mt-16 grid items-end gap-10 md:grid-cols-12 md:gap-8 lg:gap-12">
+            <div className="reveal founder-portrait-wrap md:col-span-5 md:row-span-2 md:self-center lg:col-span-4 lg:row-span-1 lg:self-end">
               <div className="founder-portrait">
                 <img src={bossPortrait.url} alt="Natthakorn “Boss” Mueangsangsri, Founder & CEO of GodHeimer Technologies" loading="lazy" className="founder-portrait-img" />
               </div>
             </div>
-            <div className="lg:col-span-6">
+            <div className="md:col-span-7 lg:col-span-6">
               <p className="mono mono-lg reveal mb-6 text-ink/50">Founder &amp; CEO, GodHeimer Technologies</p>
               <h2 className="display-lg"><Lines lines={["Natthakorn “Boss”", "Mueangsangsri"]} /></h2>
               <div className="reveal mt-8 flex flex-wrap gap-x-12 gap-y-5 border-t border-line-light pt-6">
@@ -350,7 +350,7 @@ function Index() {
               </div>
               <p className="body-copy reveal mt-8 max-w-xl text-ink/60">Building adaptive and resilient space-to-ground communication systems for the most demanding environments.</p>
             </div>
-            <div className="reveal flex items-end lg:col-span-2 lg:self-stretch"><Logo className="h-32 w-32 sm:h-44 sm:w-44 lg:h-full lg:w-auto lg:max-w-full" /></div>
+            <div className="reveal flex items-end justify-center md:col-span-7 md:col-start-6 md:justify-end lg:col-span-2 lg:col-start-11 lg:justify-end lg:self-stretch"><Logo className="h-32 w-32 sm:h-44 sm:w-44 lg:h-full lg:w-auto lg:max-w-full" /></div>
           </div>
         </div>
       </section>
