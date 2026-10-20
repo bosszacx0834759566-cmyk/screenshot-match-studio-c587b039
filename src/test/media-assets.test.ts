@@ -4,7 +4,7 @@ import { join } from "node:path";
 
 const PROJECT_ID = "973e7b7f-0419-414e-a148-2c4e99663012";
 const dir = join(__dirname, "../assets");
-const required = ["iss-video.mp4", "goddard.jpg", "oppenheimer.jpg", "boss.png"];
+const required = ["iss-video.mp4", "goddard.jpg", "oppenheimer.jpg", "boss.png", "boss-portrait-v2.png"];
 
 describe("media assets", () => {
   for (const name of required) {
