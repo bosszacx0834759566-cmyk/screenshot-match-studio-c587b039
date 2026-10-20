@@ -284,7 +284,7 @@ function Index() {
           <Head n="04" title="Atmosphere" />
           <div className="mt-16 grid gap-12 lg:grid-cols-12">
             <h2 className="display-xl lg:col-span-8"><Lines lines={["Weather changes", "everything."]} /></h2>
-            <p className="body-copy reveal self-end text-ink/60 lg:col-span-4">Clouds, rain, and atmospheric conditions can severely affect how information travels between space and Earth. These challenges demand systems engineered for real-world conditions — not ideal ones.</p>
+            <p className="body-lg reveal self-end text-ink/60 lg:col-span-4">Clouds, rain, and atmospheric conditions can severely affect how information travels between space and Earth. These challenges demand systems engineered for real-world conditions — not ideal ones.</p>
           </div>
         </div>
       </section>
